@@ -1,3 +1,4 @@
+# Function for no.1
 def count_letter(word):
     result = {}
     for i in word.lower().strip().split(" "):
@@ -6,6 +7,7 @@ def count_letter(word):
     return result
 
 
+# Function for no.2
 def sort_letter(arr):
     count = {}
     for i in arr:
